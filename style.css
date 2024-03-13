@@ -1,0 +1,100 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0,0%,90%);    
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+}
+
+#myH1 {
+    font-size: 4rem;
+    color: hsl(0,0%,25%);
+}
+
+#Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid;
+    border-radius: 50px;
+    padding: 30px;
+    background-color: white;
+}
+
+#display {
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: hsl(0,0%,30%);
+    text-shadow: 2px 2px 2px hsl(0,0%,0%,0.75);
+    margin-bottom: 25px;
+}
+
+#mylaptime {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#laptimeShow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#controls {
+    border-bottom: 3px solid;
+    padding-bottom: 10px;
+    border-color: rgb(217, 221, 224);
+}
+
+#controls button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+#startBtn {
+    background-color: hsl(120, 94%, 47%);
+}
+
+#startBtn:hover {
+    background-color: hsl(120, 94%, 30%);
+}
+
+#stopBtn {
+    background-color: hsl(197, 94%, 51%);
+}
+
+#stopBtn:hover {
+    background-color: hsl(197, 94%, 30%);
+}
+
+#resetBtn {
+    background-color: hsl(0, 100%, 66%);
+}
+
+#resetBtn:hover {
+    background-color: hsl(0, 100%, 30%);
+}
+
+#laptimeBtn {
+    background-color: hsl(61, 88%, 45%);
+}
+
+#laptimeBtn:hover {
+    background-color: hsl(61, 88%, 30%);
+}
